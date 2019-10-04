@@ -1,0 +1,184 @@
+    1  sudo apt-get update
+    2  sudo apt-get install -y tree
+    3  whoami
+    4  who
+    5  pwd
+    6  touch file1 file2 file3 file4
+    7  ls
+    8  cat>file1
+    9  ls
+   10  touch file1
+   11  cat>>file1
+   12  ls
+   13  cat file1
+   14  mkdir dir1
+   15  ls
+   16  mkdir d1/d2/d3/d4/d5
+   17  mkdir -p d1/d2/d3/d4/d5
+   18  ls
+   19  tree d1
+   20  rmdir dir1
+   21  ls
+   22  rm -r d1
+   23  ls
+   24  rm file*
+   25  ls
+   26  touch f1 f2 f3 f4 f5
+   27  ls
+   28  pwd
+   29  cd
+   30  man rm
+   31  mkdir -p d1/d2/d3/d4/d5
+   32  tree d1
+   33  cd d1
+   34  cd d2/d3/d4/d5
+   35  pwd
+   36  cd .
+   37  ls
+   38  pwd
+   39  cd ..
+   40  pwd
+   41  cd ../../../..
+   42  pwd
+   43  cd ..
+   44  pwd
+   45  echo $HOME
+   46  cd
+   47  cd d1/d2/d3/d4/d5
+   48  pwd
+   49  cd
+   50  pwd
+   51  cd d1/d2/d3/d4/d5
+   52  cd ~
+   53  pwd
+   54  ls
+   55  ls -l
+   56  touch f1
+   57  ls -l
+   58  touch .f4
+   59  ls
+   60  ls -l
+   61  touch .f6
+   62  ls
+   63  ls -a
+   64  ls -l -a
+   65  ls -la
+   66  ls -al
+   67  ll
+   68  ls -lha
+   69  ls -lh
+   70  ls -lt
+   71  ls -ltr
+   72  man -ls
+   73  man ls
+   74  history
+   75  sudo apt-get update
+   76  ls
+   77  pwd
+   78  rm -rd1
+   79  rmdir d1
+   80  rm -r d1
+   81  ls
+   82  mkdir -p d1/d2/d3/d4
+   83  ls
+   84  tree d1
+   85  cat>f1
+   86  cat f1
+   87  cp f1 f2
+   88  cat f2
+   89  ls -l
+   90  touch d1/f1
+   91  touch d1/d2/f2
+   92  touch d1/d2/d3/f3
+   93  touch d1/d2/d3/d4/f4
+   94  tree d1
+   95  cp -r d1 dir1
+   96  cp -r d1/dir2
+   97  cp -r d1 dir2
+   98  tree d1
+   99  tree dir1
+  100  tree dir2
+  101  cp -p f1 f4
+  102  ls
+  103  tree f1
+  104  tree d1
+  105  ls -l
+  106  cp -p f1 f4
+  107  ls -lh
+  108  mv f1 f5
+  109  mv f1/tmp
+  110  mv f1 /tmp
+  111  cd
+  112  ls
+  113  cd /tmp
+  114  ls
+  115  cd
+  116  mv f3/tmp
+  117  mv f3 /tem
+  118  mv f1 /tmp
+  119  mv f1/tmp
+  120  mv f5 /tmp
+  121  cd /tmp
+  122  ls
+  123  cd
+  124  ls
+  125  ln -s f4 newfile
+  126  ls -l
+  127  cat f4
+  128  cat newfile
+  129  ln f1 f3
+  130  cd
+  131  cd /tmp
+  132  ls
+  133  cd
+  134  tree d1
+  135  touch f1
+  136  cat f1
+  137  ls
+  138  cp f2 f1
+  139  cat f1
+  140  ls
+  141  ln f1 f3
+  142  ln f1 f5
+  143  ls -lh
+  144  cat>>f1
+  145  cat f1
+  146  cat f5
+  147  ls -l
+  148  ls -li
+  149  ln f1/tmp/f100
+  150  ln f1 /tmp/f100
+  151  ls -li
+  152  cd /tmp
+  153  ls
+  154  cd
+  155  pwd
+  156  df -h
+  157  cat /etc/password
+  158  cat /etc/passwd
+  159  less /etc/passwd
+  160  head /etc/passwd
+  161  head -16/etc/passwd
+  162  head -15 /etc/passwd
+  163  tail -4 /etc/passwd
+  164  grep f1 /etc/passwd
+  165  grep -i milan /etc/passwd
+  166  grep -i spool /etc/password
+  167  grep -i bin /etc/passwd
+  168  grep -n bin /etc/passwd
+  169  grep -v bin /etc/passwd
+  170  grep -nv bin /etc/passwd
+  171  wc f1
+  172  wc -l f1
+  173  wc -w -c f1
+  174  touch f10
+  175  cat>f10
+  176  cat>>f10
+  177  cat f10
+  178  sort f10
+  179  sort -n f10
+  180  sort -nr f10
+  181  cut -d ":" -f 1,7 /etc/passwd
+  182  history
+  183  cd
+  184  history > filehistory

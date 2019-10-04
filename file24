@@ -1,0 +1,4 @@
+file20 file21 file22 file23
+redirection: > for output redirection
+ 2> for error redirection
+ &>  for both error output redirection

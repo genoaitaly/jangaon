@@ -1,0 +1,13 @@
+total 36
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  3 08:40 d1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  3 08:41 dir1
+drwxrwxr-x 3 ubuntu ubuntu 4096 Oct  3 08:42 dir2
+-rw-rw-r-- 2 ubuntu ubuntu   75 Oct  3 09:06 f1
+-rw-rw-r-- 1 ubuntu ubuntu   33 Oct  3 09:19 f10
+-rw-rw-r-- 1 ubuntu ubuntu   57 Oct  3 08:39 f2
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  2 10:13 f3
+-rw-rw-r-- 1 ubuntu ubuntu   57 Oct  3 08:38 f4
+-rw-rw-r-- 2 ubuntu ubuntu   75 Oct  3 09:06 f5
+-rw-rw-r-- 1 ubuntu ubuntu    0 Oct  3 12:09 file20
+-rw-rw-r-- 1 ubuntu ubuntu 3038 Oct  3 09:38 filehistory
+lrwxrwxrwx 1 ubuntu ubuntu    2 Oct  3 09:00 newfile -> f4
